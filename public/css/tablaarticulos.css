@@ -1,0 +1,11 @@
+.box {
+    height: 4.5em;
+    overflow: hidden;
+    float: left;
+  }
+
+  .box--fixed {
+    width: 170px;
+  }
+
+  

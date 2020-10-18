@@ -1,0 +1,81 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+}
+
+#cardBlog{
+-webkit-box-shadow: 3px 7px 47px -13px rgba(20, 20, 20, 0.75);
+-moz-box-shadow: 3px 7px 47px -13px rgba(7, 6, 6, 0.75);
+box-shadow: 3px 7px 47px -13px rgba(17, 17, 17, 0.75);
+}
+
+h4{
+    
+    color: #6a6a6a;
+    text-overflow: ellipsis; 
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 25px;
+}
+
+#Pautor{
+    color: #6a6a6a;
+    text-overflow: ellipsis; 
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+
+
+
+#pContenido{
+    
+    color: #6a6a6a;
+    text-overflow: ellipsis; 
+    width: 100%;
+    overflow: hidden;
+    height: 60px;
+}
+
+.container .card img{
+    width: 100%;
+    height: 220px;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: auto;
+}
+
+.container .card{
+    width: 50%;
+    height: 480px;
+    overflow: hidden;
+    margin: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    
+    transition: all 0.20s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+}
+
+
+
