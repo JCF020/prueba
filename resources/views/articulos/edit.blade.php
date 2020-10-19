@@ -3,7 +3,9 @@
 
 @section('content')
 <div class="container">
-
+    <head>
+        <title>Editar Artículo </title>
+      </head>
     <div class="page-header">
         <h1>Editar Artículo</h1>
     </div>

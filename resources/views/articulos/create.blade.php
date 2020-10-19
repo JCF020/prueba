@@ -13,7 +13,9 @@
             </ul>
         </div>     
     @endif
-
+    <head>
+        <title>Agregar Artículo </title>
+      </head>
     
 <form action="{{url('/articulos')}}" class="form-horizontal" method='post' enctype="multipart/form-data" >
     {{csrf_field()}}

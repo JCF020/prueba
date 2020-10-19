@@ -7,9 +7,12 @@
     Session::get('Mensaje')
 }}
 @endif
-<div class="page-header">
-    <h1>Editar Categoría</h1>
-</div>
+    <head>
+        <title>Editar Categoría </title>
+    </head>
+    <div class="page-header">
+        <h1>Editar Categoría</h1>
+    </div>
 <br>
 @if(count($errors)>0)
         <div class="alert alert-danger" role="alert">

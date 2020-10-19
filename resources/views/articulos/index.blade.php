@@ -17,7 +17,9 @@
 
     $('.two-line').ellipsis({ lines: 1 });
 </script>
-
+    <head>
+        <title>Administrar Artículo </title>
+    </head>
     <div class="page-header">
         <h1>Artículos</h1>
     </div>

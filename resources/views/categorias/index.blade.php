@@ -10,16 +10,14 @@
     }}
     @endif
 
-<script>
-    function confirmarEliminar(){
-        return confirm('Desea Eliminar este registro');
-    }
-</script>
 
+    <head>
+        <title>Administrar Categoría </title>
+    </head>
 
-<div class="page-header">
-    <h1>Categorías</h1>
-</div>
+    <div class="page-header">
+        <h1>Categorías</h1>
+    </div>
 
  
 <table class="table  table-hover table-bordered" >

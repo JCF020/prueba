@@ -4,7 +4,9 @@
 
 <link rel="stylesheet" href="<?php echo asset('css/paginasecundaria.css')?>" type="text/css"> 
     
-    
+  <head>
+    <title>{{$articulos->nombre}} </title>
+  </head>
     <div class="container">
         <link rel="stylesheet" href="{{ URL::asset('public/css/paginasecundaria.css') }}">
         

@@ -3,6 +3,9 @@
 
 @section('content')
 <div class="container">
+    <head>
+        <title>Agregar Categoría </title>
+    </head>
     <div class="page-header">
         <h1>Agregar Categoría</h1>
     </div>

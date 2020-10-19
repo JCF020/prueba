@@ -7,6 +7,9 @@
 
 <div class="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Home </title>
+    </head>
     <form action="">
         <div class="title" style="">
             <h1>Blog</h1>

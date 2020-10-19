@@ -1,8 +1,9 @@
 @extends('layouts.app')
-
+@section('title')
 @section('content')
 <link rel="stylesheet" href="css/paginaprincipal.css"/>
 <div class="container">
+    <head><title> Api de noticias </title></head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <form action="">
         <div class="title" style="">
