@@ -30,9 +30,7 @@ class ArticulosController extends Controller
      */
     public function create()
     {   
-        //$categorias = Categorias::all();
-        $categorias = Categorias::where('estatus','=','A')->get();;
-       // dd($categorias);exit;
+        $categorias = Categorias::where('estatus','=','A')->get();
         return view('articulos.create',compact('categorias'));
     }
 
@@ -88,7 +86,6 @@ class ArticulosController extends Controller
     public function edit($id)
     {
         $articulos = Articulos::findOrFail($id);
-        //dd($articulos);exit;
         $categorias = Categorias::all();
         return view('articulos.edit',compact('articulos','categorias'));
     }
@@ -148,7 +145,7 @@ class ArticulosController extends Controller
         
         $fechaActual = new DateTime();
         
-        $datos['articulos'] = Articulos::where('created_at','<=',$fechaActual,'and',)->orderByRaw('created_at DESC')->paginate(6);
+        $datos['articulos'] = Articulos::where([['created_at','<=',$fechaActual],['estatus','=','A'],])->orderByRaw('created_at DESC')->paginate(6);
         
         $datos['categorias'] = Categorias::all();
         

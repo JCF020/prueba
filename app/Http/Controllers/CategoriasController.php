@@ -54,7 +54,7 @@ class CategoriasController extends Controller
 
         Categorias::insert($categoria);
 
-        //return response()->json($categoria);
+        
         return redirect('categorias')->with('Mensaje','Categoria guardada');
         //
     }

@@ -5,7 +5,7 @@
 <div class="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <form action="">
-        <div class="title" style="margin-left: 12%">
+        <div class="title" style="">
             <h1>Noticias Internacionales</h1>
         </div>
         
